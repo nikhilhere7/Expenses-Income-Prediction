@@ -1,0 +1,40 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+
+
+project/
+│
+├── data/
+   └── actual.data
+│   └── anz.csv                        
+├── notebooks/
+│   ├── 01_data_prep.ipynb
+│   ├── 02_features_models.ipynb
+│   └── 03_evaluation.ipynb
+│
+├── models/
+│   ├── best_income_model.pkl
+│   └── best_expense_model.pkl
+│
+├── report/
+│   └── report.pdf
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+| File / Folder                | Tools Needed                      | What It Includes                                     |
+| ---------------------------- | --------------------------------- | ---------------------------------------------------- |
+|     01_data_prep.ipynb       | pandas, numpy, matplotlib         | Data loading, cleaning, EDA, target creation         |
+|   02_features_models.ipynb   | pandas, scikit-learn, joblib      | Feature engineering, ML model training, model saving |
+|   03_evaluation.ipynb        | scikit-learn, seaborn, matplotlib | Model evaluation, visualizations, insights           |
+|   models/                    | joblib                            | Saved trained models                    |
+|   report.pdf                 | Word / PDF tool                   | Final one-page project summary                       |
+|     README.md                | Markdown                          | Project documentation                    |
+
