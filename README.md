@@ -1,4 +1,4 @@
-Income & Expense Prediction Using Machine Learning
+                                                                        Income & Expense Prediction Using Machine Learning
 
 Predicting customer income & expenses using transaction data
 Tech Stack: Python · Pandas · Scikit-Learn · Random Forest · Matplotlib · Seaborn
@@ -77,4 +77,3 @@ Income
 Expenses
 
 Train/test split = 80/20
-
